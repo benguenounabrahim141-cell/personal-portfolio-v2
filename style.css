@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header h1 span {
+    color: #00adb5;
+}
+
+header p {
+    font-size: 18px;
+    color: #eeeeee;
+}
+
+/* Navigation */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: #00adb5;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Section titles */
+section h2 {
+    color: #00adb5;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+/* Projects */
+article {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #00adb5;
+}
+
+/* Links */
+a {
+    transition: color 0.2s ease;
+}
+
+section a {
+    color: #008b92;
+}
+
+section a:hover {
+    color: #005f63;
+}
+
+/* Footer */
+footer {
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+}
